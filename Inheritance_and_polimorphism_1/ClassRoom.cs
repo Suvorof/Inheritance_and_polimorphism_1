@@ -25,7 +25,7 @@ namespace Inheritance_and_polimorphism_1
 
         public void PrintInfoStudy()
         {
-            Console.WriteLine("Study : ");
+            Console.WriteLine("Study: ");
             foreach (Pupil item in arrPupil)
                 item.Study();
         }
